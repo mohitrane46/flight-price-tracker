@@ -4,3 +4,4 @@ query_time,flight_date,airline,price,departure_time,duration_minutes,fare_type
 2026-02-06 06:12,2026-02-07,IndiGo,15068,2026-02-07 06:05,120,Economy
 2026-02-06 06:12,2026-02-07,Air India,16260,2026-02-07 08:55,140,Economy
 2026-02-06 06:12,2026-02-07,Akasa Air,16608,2026-02-07 07:00,140,Economy
+2026-02-06 15:27,2026-02-07,Air India,23520,2026-02-07 08:00,140,Economy

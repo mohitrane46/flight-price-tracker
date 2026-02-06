@@ -22,7 +22,7 @@ def get_target_date():
     """
     now = datetime.datetime.now()
     if now.hour >= 8:
-        return (now + datetime.timedelta(days=1)).strftime("%Y-%m-%d")
+        return (datetime.date.today() + datetime.timedelta(days=1)).strftime("%Y-%m-%d")
     return now.strftime("%Y-%m-%d")
 
 
@@ -90,8 +90,15 @@ def fetch_cheapest_fares():
 data = fetch_cheapest_fares()
 
 if not data:
-    print("No economy fares found. Try widening the time window.")
-    exit()
+    data = [{
+        "query_time": datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "flight_date": get_target_date(),
+        "airline": "N/A",
+        "price": "N/A",
+        "departure_time": "N/A",
+        "duration_minutes": "N/A",
+        "fare_type": "NO_DATA"
+    }]
 
 file_exists = os.path.isfile(FILE_NAME)
 

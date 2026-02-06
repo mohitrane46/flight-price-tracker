@@ -17,13 +17,13 @@ DIRECT_ONLY = 1         # Non-stop only
 
 def get_target_date():
     """
-    If script runs after 8 AM, track tomorrow.
-    Otherwise track today.
+    GitHub Actions runs in UTC.
+    Convert to IST and always track TOMORROW.
     """
-    now = datetime.datetime.now()
-    if now.hour >= 8:
-        return (datetime.date.today() + datetime.timedelta(days=1)).strftime("%Y-%m-%d")
-    return now.strftime("%Y-%m-%d")
+    utc_now = datetime.datetime.utcnow()
+    ist_now = utc_now + datetime.timedelta(hours=5, minutes=30)
+
+    return (ist_now + datetime.timedelta(days=1)).strftime("%Y-%m-%d")
 
 
 def fetch_cheapest_fares():

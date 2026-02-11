@@ -16,3 +16,4 @@ query_time,flight_date,airline,price,departure_time,duration_minutes,fare_type
 2026-02-10 16:20,2026-02-11,Air India,16260,2026-02-11 09:30,135,Economy
 2026-02-10 16:47,2026-02-11,IndiGo,16049,2026-02-11 08:00,130,Economy
 2026-02-10 16:47,2026-02-11,Air India,16260,2026-02-11 09:30,135,Economy
+2026-02-11 16:47,2026-02-12,Air India,16260,2026-02-12 08:55,140,Economy

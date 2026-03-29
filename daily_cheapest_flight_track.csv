@@ -187,3 +187,6 @@ query_time,flight_date,airline,price,departure_time,duration_minutes,fare_type
 2026-03-28 14:02,2026-03-29,Akasa Air,7253,2026-03-29 07:00,140,Economy
 2026-03-28 14:02,2026-03-29,Air India,7197,2026-03-29 06:30,130,Economy
 2026-03-28 14:02,2026-03-29,Air India Express,7305,2026-03-29 06:50,135,Economy
+2026-03-29 14:04,2026-03-30,IndiGo,6992,2026-03-30 08:00,135,Economy
+2026-03-29 14:04,2026-03-30,Akasa Air,7253,2026-03-30 07:00,140,Economy
+2026-03-29 14:04,2026-03-30,Air India,7197,2026-03-30 06:30,130,Economy

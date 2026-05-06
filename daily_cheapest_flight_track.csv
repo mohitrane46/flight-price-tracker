@@ -315,3 +315,5 @@ query_time,flight_date,airline,price,departure_time,duration_minutes,fare_type
 2026-05-04 15:28,2026-05-05,IndiGo,7791,2026-05-05 08:00,135,Economy
 2026-05-04 15:28,2026-05-05,Air India,8000,2026-05-05 08:30,140,Economy
 2026-05-04 15:28,2026-05-05,Akasa Air,8740,2026-05-05 07:00,140,Economy
+2026-05-06 15:40,2026-05-07,Akasa Air,22157,2026-05-07 07:00,140,Economy
+2026-05-06 15:40,2026-05-07,Air India,32410,2026-05-07 07:00,135,Economy

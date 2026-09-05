@@ -799,3 +799,6 @@ query_time,flight_date,airline,price,departure_time,duration_minutes,fare_type
 2026-09-04 16:56,2026-09-05,Air India,6614,2026-09-05 09:30,140,Economy
 2026-09-04 16:56,2026-09-05,Akasa Air,6912,2026-09-05 07:00,140,Economy
 2026-09-04 16:56,2026-09-05,Air India Express,17768,2026-09-05 08:55,135,Economy
+2026-09-05 16:09,2026-09-06,IndiGo,6457,2026-09-06 09:00,135,Economy
+2026-09-05 16:09,2026-09-06,Air India,6772,2026-09-06 09:30,140,Economy
+2026-09-05 16:09,2026-09-06,Akasa Air,6912,2026-09-06 07:00,140,Economy

@@ -920,3 +920,5 @@ query_time,flight_date,airline,price,departure_time,duration_minutes,fare_type
 2026-10-07 19:26,2026-10-09,Air India,6929,2026-10-09 09:30,140,Economy
 2026-10-07 19:26,2026-10-09,IndiGo,6979,2026-10-09 06:00,125,Economy
 2026-10-07 19:26,2026-10-09,Akasa Air,6991,2026-10-09 07:00,140,Economy
+2026-10-08 19:20,2026-10-10,Air India,7192,2026-10-10 06:30,130,Economy
+2026-10-08 19:20,2026-10-10,Akasa Air,7591,2026-10-10 07:00,140,Economy

@@ -943,3 +943,5 @@ query_time,flight_date,airline,price,departure_time,duration_minutes,fare_type
 2026-10-17 16:33,2026-10-18,Akasa Air,7950,2026-10-18 07:00,140,Economy
 2026-10-18 16:41,2026-10-19,Air India,7040,2026-10-19 09:30,140,Economy
 2026-10-18 16:41,2026-10-19,Akasa Air,7057,2026-10-19 07:00,140,Economy
+2026-10-19 19:24,2026-10-21,Akasa Air,10420,2026-10-21 07:00,140,Economy
+2026-10-19 19:24,2026-10-21,Air India,24192,2026-10-21 06:30,130,Economy
